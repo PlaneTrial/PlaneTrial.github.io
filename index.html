@@ -12,7 +12,7 @@
         }
         a {
             text-decoration: none;
-            color: blue;
+            color: white;
         }
         #title {
             position: absolute;
@@ -32,9 +32,9 @@
             z-index: 10;
         }
     </style>
-    <script type="text/javascript" src="https://github.com/PlaneTrial/PlaneTrial.github.io/blob/4d9056e3f10f5f8dbc3e251934b23f607b73e8aa/three.js"></script>
-    <script type="text/javascript" src="https://github.com/PlaneTrial/PlaneTrial.github.io/blob/4d9056e3f10f5f8dbc3e251934b23f607b73e8aa/Detector.js"></script>
-    <script type="text/javascript" src="https://github.com/PlaneTrial/PlaneTrial.github.io/blob/4d9056e3f10f5f8dbc3e251934b23f607b73e8aa/TrackballControls.js"></script>
+    <script type="text/javascript" src="https://github.com/PlaneTrial/PlaneTrial.github.io/three.js"></script>
+    <script type="text/javascript" src="https://github.com/PlaneTrial/PlaneTrial.github.io/Detector.js"></script>
+    <script type="text/javascript" src="https://github.com/PlaneTrial/PlaneTrial.github.io/TrackballControls.js"></script>
 
     <script type="text/javascript">
         var camera, scene, renderer;
@@ -84,7 +84,7 @@
             var shading_type = THREE.FlatShading;
 
             var material = new THREE.MeshLambertMaterial({
-                color: 0xff0000,
+                color: 0xffff00,
                 shading: shading_type,
                 transparent: true
             });
